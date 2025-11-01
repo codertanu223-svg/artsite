@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixli.in | Gallery</title>
+ <style>/* ===== Art Popup with Background Blur ===== */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.popup img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 64, 129, 0.5);
+  border: 3px solid #ff4081;
+}
+
+.popup span {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.popup span:hover {
+  color: #ff4081;
+  transform: scale(1.2);
+}
+
+</style>
+  <!-- CSS link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">Pixli<span>.in</span></div>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="artists.html">Artists</a>
+      <a href="upload.html">Upload</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="gallery">
+    <h2>Art Gallery</h2>
+    <h1>Anime</h1>
+    <div class="grid" >
+      <img src="img/anime1.jpg" alt="Artwork 1" />
+      <img src="img/anime2.jpg" alt="Artwork 2" />
+      <img src="img/anime3.jpg" alt="Artwork 3" />
+      <img src="img/anime4.jpg" alt="Artwork 4" />
+      <img src="img/anime5.jpg" alt="Artwork 5" />
+      <img src="img/anime6.jpg" alt="Artwork 6" />
+      <img src="img/anime7.jpg" alt="Artwork 7" />
+      <img src="img/anime8.jpg" alt="Artwork 8" />
+      <img src="img/anime9.jpg" alt="Artwork 9" />
+      <img src="img/anime10.jpg" alt="Artwork 10" />
+      <img src="img/anime11.jpg" alt="Artwork 11" />
+      <img src="img/anime12.jpg" alt="Artwork 12" />
+      <img src="img/anime13.jpg" alt="Artwork 13" />
+      <img src="img/anime14.jpg" alt="Artwork 14" />
+      <img src="img/anime15.jpg" alt="Artwork 15" />
+      <img src="img/anime16.jpg" alt="Artwork 16" />
+      <img src="img/anime17.jpg" alt="Artwork 17" />
+      <img src="img/anime18.jpg" alt="Artwork 18" />
+      <img src="img/anime19.jpg" alt="Artwork 19" />
+      <img src="img/anime20.jpg" alt="Artwork 20" />
+      <img src="img/anime21.jpg" alt="Artwork 21" />
+      <img src="img/anime22.jpg" alt="Artwork 22" />
+    </div>
+    <h2></h2> <h1>Creative</h1>
+    <div class="grid">
+      <img src="img/creative1.jpg" alt="Artwork 1" />
+      <img src="img/creative2.jpg" alt="Artwork 2" />
+      <img src="img/creative3.jpg" alt="Artwork 3" />
+      <img src="img/creative4.jpg" alt="Artwork 4" />
+      <img src="img/creative5.jpg" alt="Artwork 5" />
+      <img src="img/creative6.jpg" alt="Artwork 6" />
+      <img src="img/creative7.jpg" alt="Artwork 7" />
+      <img src="img/creative8.jpg" alt="Artwork 8" />
+      <img src="img/creative9.jpg" alt="Artwork 9" />
+    </div>
+
+       <h2></h2><h1>protrait</h1>
+    <div class="grid">
+      <img src="img/protrait1.jpg" alt="Artwork 1" />
+      <img src="img/protrait2.jpg" alt="Artwork 2" />
+      <img src="img/protrait3.jpg" alt="Artwork 3" />
+      <img src="img/protrait4.jpg" alt="Artwork 4" />
+      <img src="img/protrait5.jpg" alt="Artwork 5" />
+      <img src="img/protrait6.jpg" alt="Artwork 6" />
+      <img src="img/protrait7.jpg" alt="Artwork 7" />
+      <img src="img/protrait8.jpg" alt="Artwork 8" />
+      <img src="img/protrait9.jpg" alt="Artwork 9" />
+      <img src="img/protrait10.jpg" alt="Artwork 10" />
+      <img src="img/protrait11.jpg" alt="Artwork 11" />
+      
+    </div>
+       <h2></h2>
+   <h1>Human funny face</h1>
+    <div class="grid" >
+      <img src="img/hff1.jpg" alt="Artwork 1" />
+      <img src="img/hff2.jpg" alt="Artwork 2" />
+      <img src="img/hff3.jpg" alt="Artwork 3" />
+      <img src="img/hff4.jpg" alt="Artwork 4" />
+      <img src="img/hff5.jpg" alt="Artwork 5" />
+      <img src="img/hff6.jpg" alt="Artwork 6" />
+      <img src="img/hff7.jpg" alt="Artwork 7" />
+      <img src="img/hff8.jpg" alt="Artwork 8" />
+      <img src="img/hff9.jpg" alt="Artwork 9" />
+      <img src="img/hff10.jpg" alt="Artwork 10" />
+      <img src="img/hff11.jpg" alt="Artwork 11" />
+      <img src="img/hff12.jpg" alt="Artwork 12" />
+      <img src="img/hff13.jpg" alt="Artwork 13" />
+      <img src="img/hff14.jpg" alt="Artwork 14" />
+      <img src="img/hff15.jpg" alt="Artwork 15" />
+      <img src="img/hff16.jpg" alt="Artwork 16" />
+      <img src="img/hff17.jpg" alt="Artwork 17" />
+      <img src="img/hff18.jpg" alt="Artwork 18" />
+      <img src="img/hff19.jpg" alt="Artwork 19" />
+      <img src="img/hff20.jpg" alt="Artwork 20" />
+      <img src="img/hff21.jpg" alt="Artwork 21" />
+      <img src="img/hff22.jpg" alt="Artwork 22" />
+      <img src="img/hff23.jpg" alt="Artwork 23" />
+      <img src="img/hff24.jpg" alt="Artwork 19" />
+      <img src="img/hff25.jpg" alt="Artwork 20" />
+      <img src="img/hff26.jpg" alt="Artwork 21" />
+      <img src="img/hff27.jpg" alt="Artwork 22" />
+      <img src="img/hff28.jpg" alt="Artwork 23" />
+    </div>
+  </section>
+
+  <!-- ===== POPUP VIEWER ===== -->
+  <div class="popup" id="popup">
+    <span id="closePopup">&times;</span>
+    <img id="popupImg" src="" alt="Selected Art" />
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Pixli.in | Gallery of Dreams</p>
+  </footer>
+  <script>
+// === Image Popup Viewer ===
+const images = document.querySelectorAll('.gallery .grid img');
+const popup = document.getElementById('popup');
+const popupImg = document.getElementById('popupImg');
+const closePopup = document.getElementById('closePopup');
+
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    popup.style.display = 'flex';
+    popupImg.src = img.src;
+  });
+});
+
+closePopup.addEventListener('click', () => {
+  popup.style.display = 'none';
+});
+
+popup.addEventListener('click', (e) => {
+  if (e.target === popup) popup.style.display = 'none';
+});
+</script>
+  <!-- ===== JS LINK ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
